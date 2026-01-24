@@ -22,7 +22,13 @@ CSS3
 
 📁 Project Structure
 
-netflix-clone/ │ ├── index.html ├── style.css └── images
+netflix-clone/
+
+│ ├── index.html 
+
+├── style.css
+
+└── images
 
 🎬 Netflix Clone
 
