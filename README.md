@@ -36,7 +36,6 @@ netflix-clone/
 
 📌 Limitations
 
-❌ Not responsive
 
 ❌ No JavaScript functionality
 
