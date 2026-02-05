@@ -1,0 +1,127 @@
+/* Tablet (<=1024px) */
+@media (max-width: 1024px) {
+
+    nav {
+        max-width: 90vw;
+    }
+
+    .hero {
+        max-width: 70vw;
+    }
+
+    .hero > :nth-child(1) {
+        font-size: 40px;
+    }
+
+    .hero input {
+        padding: 15px;
+        width: 60%;
+    }
+
+    .container,
+    .container2,
+    .container3,
+    footer {
+        width: 90vw;
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    .smallimg {
+        flex-wrap: wrap;
+        height: auto;
+    }
+
+    .card2 {
+        width: 45%;
+    }
+
+    .foot-grid {
+        grid-template-columns: repeat(2, 1fr);
+    }
+}
+
+ /* Small Tablet (<=768px) */
+@media (max-width: 768px) {
+
+    nav img {
+        width: 90px;
+    }
+
+    .hero {
+        max-width: 90vw;
+        text-align: center;
+    }
+
+    .hero > :nth-child(1) {
+        font-size: 30px;
+    }
+
+    .hero > :nth-child(2) {
+        font-size: 18px;
+    }
+
+    .search {
+        flex-direction: column;
+    }
+
+    .hero input,
+    .container4 input {
+        width: 90%;
+        padding: 14px;
+    }
+
+    .start-btn {
+        width: 90%;
+        font-size: 18px;
+        text-align: center;
+    }
+
+    .card2 {
+        width: 100%;
+    }
+
+    .foot-grid {
+        grid-template-columns: 1fr;
+    }
+
+    footer {
+        height: auto;
+    }
+}
+
+/* Mobile (<=480px)  */
+@media (max-width: 480px) {
+
+    header {
+        height: auto;
+    }
+
+    .hero > :nth-child(1) {
+        font-size: 24px;
+    }
+
+    .hero > :nth-child(2),
+    .hero > :nth-child(3) {
+        font-size: 14px;
+    }
+
+    .btn1 select,
+    .btn2 {
+        font-size: 14px;
+        padding: 5px;
+    }
+
+    .trending,
+    .title-section {
+        font-size: 20px;
+    }
+
+    .faq {
+        font-size: 16px;
+    }
+
+    .number {
+        font-size: 50px;
+    }
+}
